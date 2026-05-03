@@ -1,0 +1,196 @@
+PHINMA UNIVERSITY OF ILOILO 
+College of Information Technology Education 
+CAPSTONE PROJECT PROPOSAL 
+A Decision Support System for Room Availability, Payment Records, and Tenant Inquiries in Boarding Houses
+In partial fulfillment for the requirements in Capstone 1 and Research Subject 
+Ashley Acero BSIT 3
+Tiara Rose Gelacio BSIT 3
+Lester Ballaran BSIT 3
+Client Jeffrix Dela Cruz BSIT 3
+Tedd Raphael Malificiar BSIT 3
+ 
+Data Informatics Track 
+Second Semester 
+2025-26
+
+
+CHAPTER 1 
+INTRODUCTION 
+1.1 Background of the Study 
+Ellen Boardinghouses, owned by Ellen and Rex Castronuevo, has been a provider of short-term and long-term accommodations in Iloilo since its first branch opened in 2017. With the recent expansion to a second branch in Dungon A, Jaro, in 2024, the business has seen a significant increase in its tenant base, primarily composed of university students and working individuals.
+Despite this growth, the management continues to rely on traditional, manual methods for daily operations. Payment tracking is currently recorded in physical notebooks, while digital transactions via GCash are verified through disorganized mobile screenshots. As the scale of operations increases, this manual approach has become difficult and inefficient. The owners face challenges in maintaining accurate room availability logs and responding to frequent tenant inquiries in a timely manner. To address these operational bottlenecks, there is an urgent need to transition from manual record-keeping to a centralized, web-based system that can streamline data management and improve communication between the management and its tenants.
+This capstone project proposes the development of A Decision Support System for Room Availability, Payment Records, and Tenant Inquiries in Boarding Houses, a web-based solution designed to centralize and automate the manual administrative tasks of property management. By replacing traditional notebook-based tracking and unorganized payment screenshots with a structured digital platform, the system provides real-time data on room occupancy and financial records. This enables owners to make informed management decisions while significantly improving tenant communication and response times.
+1.2 Statement of the Problem 
+The primary challenge facing by Ellen Boardinghouses is the inefficiency of manual management processes, which leads to operational errors and poor tenant satisfaction. Specifically, the study seeks to address the following problems:
+●Inaccurate Payment Records: The use of notebooks and unorganized GCash screenshots for payment tracking leads to incomplete records and confusion regarding tenant balances.
+●Inefficient Communication: Frequent tenant inquiries regarding room availability and payment confirmations are difficult to manage and follow up on without a dedicated platform.
+
+
+●Lack of Real-Time Data: The absence of a centralized system makes it time-consuming for owners to check room status and verify information, often leading to confusion in room assignments.
+
+●Scalability Issues: As the number of branches and tenants grows, manual processes become increasingly prone to human error, resulting in missed payments and delayed responses.
+1.3 Objectives of the Study 
+1.3.1 General Objective 
+The primary objective of this study is to design, develop, and implement a Web-Based Decision Support System for Ellen Boardinghouses. The system aims to centralize room availability tracking, automate payment record-keeping, and streamline tenant inquiries to eliminate manual errors and enhance overall management efficiency.
+
+1.3.2 Specific Objectives 
+To achieve the general objective, the study will focus on the following technical goals:
+1.Database Development: To design a centralized database that securely stores and organizes tenant profiles, rental history, and legal agreements, replacing prone-to-loss physical notebooks.
+2.Real-Time Monitoring: To develop a room availability module that provides the owners with an instant, real-time status of all units across multiple branches (Lopez Jaena and Jaro).
+3.Payment Automation: To create a dedicated feature for tracking cash and online payment transactions(Gcash, BankTransfer), allowing for the organized uploading of digital receipts and automated calculation of tenant balances.
+4.Communication Streamlining: To implement an integrated inquiry and notification system where tenants can submit questions and receive timely updates regarding their status.
+5.System Evaluation: To test and evaluate the system's performance in terms of accuracy, usability, and time-saving capabilities through user-acceptance testing with the owners and tenants.
+
+
+1.4 Scope and Delimitation 
+The system will include the following features:
+●Online booking for short-term and long-term rentals
+●Digital payment tracking for tenant transactions
+●Tenant inquiry management to handle questions and communication
+●Room viewing scheduling for prospective tenants
+●Real-time room availability status
+●Basic analytics and forecasting for occupancy and revenue
+●Identification of profitable room types based on booking data
+Target Users
+●Boarding house owner/administrator
+●Tenants or potential tenants
+Platform
+●Web-based system accessible through internet browsers
+Delimitation of the Study
+      The study has the following limitations:
+●The system will be implemented for one boarding house only
+●Mobile application development is not included
+●The system will not integrate with external property platforms
+●Advanced artificial intelligence features are not included
+●The system will not function as a full financial accounting system
+●Forecasting will rely only on historical booking and payment data within the system
+1.5 Significance of the Study 
+The results of this study will be beneficial to the following:
+●Boarding House Owners (Ellen & Rex Castronuevo): It provides them with a tool to reduce the "budlay" (difficulty) of manual management, ensuring financial accuracy and better oversight of multiple branches.
+●Tenants (Students & Working-Individuals): They will benefit from faster responses to inquiries and a more transparent way to track their payment history without needing to follow up repeatedly.
+
+●Future Researchers: This study can serve as a reference for those developing similar management systems for small-scale real estate or local rental businesses in the future.
+1.6 Definition of Terms 
+For the purpose of this study, the following terms are defined operationally:
+●Decision Support System (DSS): A computerized system that gathers and analyzes data (like occupancy and payments,etc.) to help the owners make informed business decisions.
+●GCash/BankTransfer Verification: The process of uploading and checking digital payment receipts within the system to ensure the transaction matches the tenant’s balance.
+●Real-Time Room Status: The immediate digital update of a room’s availability the moment a tenant moves in or out.
+●Tenant Inquiry: Any digital request or question sent by a user regarding room rates, availability, or payment confirmation.
+●Web-Based System: An application that is accessed through a web browser over the internet, allowing the owners to manage the business from any device.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CHAPTER 2 
+REVIEW OF RELATED LITERATURE AND STUDIES 2.1 Foreign Studies 
+Several studies conducted in other countries have explored digital systems for managing accommodation services.
+A study on a Web-Based Dormitory Management System developed a platform that allows administrators to monitor room availability, manage tenant records, and track payments through a centralized database. The study found that the system reduced manual paperwork and improved operational efficiency. This study is relevant to the current research because it demonstrates how a web-based system can simplify accommodation management.
+Another study developed an Online Rental Property Management System that automated booking processes and tenant record management. The system integrated payment verification and real-time availability monitoring, allowing property owners to manage rental units more efficiently. The findings showed that digital systems reduce errors caused by manual data entry.
+A separate study examined the use of Decision Support Systems (DSS) in property management. The system analyzed occupancy and financial data to assist managers in making better decisions regarding resource allocation and pricing strategies. The study concluded that DSS technology supports data-driven decision-making, which is similar to the objective of the proposed system. 
+2.2 Local Studies 
+Several studies conducted in the Philippines have also explored digital solutions for managing rental accommodations.
+One local study developed a Dormitory Management System that provided features such as room assignment, tenant information management, and payment monitoring. The researchers found that the system improved record accuracy and reduced administrative workload.
+Another study introduced a Web-Based Boarding House Reservation System that allowed tenants to check room availability and submit booking requests online. The study showed that online systems improve communication between tenants and property managers.
+Another research focused on digital payment monitoring systems for rental businesses. The study highlighted the importance of organized payment tracking to prevent financial discrepancies and maintain transparency in tenant transactions.
+These local studies show the importance of automated systems in improving rental management. However, most systems focus mainly on reservations or payment monitoring. The proposed study aims to integrate room availability monitoring, payment tracking, and tenant inquiry management into one decision support system.
+2.3 Related Literature 
+Information systems are essential tools used by organizations to collect, process, store, and distribute information. These systems help improve operational efficiency and support decision-making in business environments.
+Software development involves the process of designing, creating, and maintaining computer applications that solve specific problems. Development methodologies help ensure that systems meet user requirements and function effectively.
+Web-based technologies such as HTML, CSS, JavaScript, and PHP are commonly used in developing online applications. These technologies allow users to access systems through web browsers and interact with the system interface.
+Database systems are also important components of web applications. Databases such as MySQL allow developers to store and manage structured information, ensuring that data remains organized, secure, and easily accessible.
+In boarding house management, these technologies can be used to create a centralized platform for storing tenant records, tracking payments, and monitoring room availability.
+2.4 Synthesis of the Reviewed Literature 
+The reviewed literature and studies show that digital management systems improve the efficiency of accommodation services by organizing records, automating processes, and enhancing communication between property owners and tenants.
+However, many small-scale boarding houses still rely on manual record-keeping methods such as notebooks and mobile payment screenshots. This creates difficulties in tracking payments, managing room availability, and responding to tenant inquiries.
+To address these limitations, the proposed study aims to develop a Decision Support System for Room Availability, Payment Records, and Tenant Inquiries that centralizes these functions into a single web-based platform to support better decision-making and management efficiency.
+
+
+CHAPTER 3 
+METHODOLOGY 
+3.1 Research Design 
+The study will use a web-based solution designed to centralize and automate the manual administrative tasks of property management. By replacing traditional notebook-based tracking and unorganized payment screenshots with a structured digital platform, the system provides real-time data on room occupancy and financial records. 
+3.2 System Development Methodology 
+The Agile Development Model will be used, consisting of the following phases: 
+1. Requirements Analysis 
+2. System Design 
+3. Development 
+4. Testing 
+5. Deployment (Prototype) 
+3.3 System Architecture 
+The client side (tenants and administrators) interacts with the system to view room availability, submit bookings, upload payments, and send inquiries. These requests are sent to the server side, which handles processing, validation, and system logic using PHP. The server then communicates with the database (MySQL) to store or retrieve information such as tenant records, payment details, and room status. After processing, the server sends the response back to the client, allowing users to see real-time updates.. 
+3.4 Tools and Technologies Used 
+● Frontend: HTML, CSS, JavaScript 
+● Backend: PHP,JS
+● Database: MySQL 
+      ● Development Tools: Visual Studio Code
+
+
+
+3.5 Data Gathering Techniques 
+      ● Surveys and questionnaires
+      ● Interviews with potential users
+3.6 Testing Procedures 
+● Manual Testing 
+3.7 Evaluation Criteria 
+The system will be evaluated based on the following criteria: 
+● Functionality - Ability to perform its intended tasks correctly and completely. It evaluates whether all required features such as room availability tracking, payment recording, and tenant inquiry management are working as expected.
+
+● Usability - Measures how easy and user-friendly the system is for its intended users, including both the boarding house owner and tenants.
+
+● Security - How well the system protects user data and prevents unauthorized access.
+
+● Efficiency - Fast and resource-effective the system performs its operations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data Flow Diagram (DFD – Level 0) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Entity Relationship Diagram  
+Use Case Diagram 
+
